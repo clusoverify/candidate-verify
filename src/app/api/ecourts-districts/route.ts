@@ -44,7 +44,7 @@ export async function GET(req: NextRequest) {
     try {
       const possiblePaths = [
         path.join(process.cwd(), "../client-verify/src/data/courts.json"),
-        "d:/OzcluVerifyNew/client-verify/src/data/courts.json",
+        path.join(process.cwd(), "src/data/courts.json"),
         path.join(process.cwd(), "client-verify/src/data/courts.json")
       ];
 

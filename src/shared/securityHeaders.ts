@@ -23,7 +23,7 @@ export const GLOBAL_SECURITY_HEADERS: SecurityHeader[] = [
   },
   {
     key: "Permissions-Policy",
-    value: "camera=(self), geolocation=(self), microphone=(), payment=()",
+    value: "camera=(), microphone=(), geolocation=(), payment=()",
   },
   {
     key: "X-Frame-Options",

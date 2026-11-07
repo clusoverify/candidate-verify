@@ -22,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ozclu Identity Verification | Candidate Portal",
+  title: "Cluso Infolink Identity Verification | Candidate Portal",
   description: "Secure terminal for candidates to complete identity verification and document checks with DigiLocker.",
 };
 

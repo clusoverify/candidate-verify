@@ -408,7 +408,7 @@ function CandidateDashboardContent() {
         ctx.font = "bold 20px sans-serif";
         ctx.fillStyle = "#38bdf8";
         ctx.textAlign = "right";
-        ctx.fillText("OZCLU VERIFY", targetW - 16, targetH - barHeight + 28);
+        ctx.fillText("CLUSO INFOLINK VERIFY", targetW - 16, targetH - barHeight + 28);
         ctx.font = "11px monospace";
         ctx.fillStyle = "#94a3b8";
         ctx.fillText("GEO-TAGGED SECURE AUDIT", targetW - 16, targetH - barHeight + 46);
@@ -690,7 +690,7 @@ function CandidateDashboardContent() {
               Hello, {profile?.fullName}!
             </h1>
             <p className="font-body-sm text-slate-500 mt-1 font-medium">
-              Verification Requested by: <strong className="text-slate-800 font-bold">{profile?.orgName || "Ozclu"}</strong>
+              Verification Requested by: <strong className="text-slate-800 font-bold">{profile?.orgName || "Cluso Infolink"}</strong>
             </p>
           </div>
           <div className="flex items-center gap-1.5">
@@ -1115,7 +1115,7 @@ function CandidateDashboardContent() {
                       }}
                     />
                     <div className="absolute bottom-2 left-2 right-2 bg-slate-900/80 backdrop-blur-md px-3 py-1.5 rounded-lg text-[10px] text-cyan-400 font-mono flex items-center justify-between border border-slate-700/50">
-                      <span>OZCLU GEO-TAGGER LIVE</span>
+                      <span>CLUSO INFOLINK GEO-TAGGER LIVE</span>
                       <span className="flex items-center gap-1">
                         <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> GPS ACTIVE
                       </span>
@@ -1621,7 +1621,7 @@ function CandidateDashboardContent() {
                     className="w-5 h-5 mt-0.5 border border-[#C6982E] rounded bg-white text-primary focus:ring-[#016e1c] cursor-pointer shrink-0"
                   />
                   <label htmlFor="emp-consent-checkbox" className="font-body-sm text-slate-600 cursor-pointer select-none leading-relaxed font-medium">
-                    I confirm that the information provided above is accurate and I authorize Ozclu to verify this employment information with the listed employer.
+                    I confirm that the information provided above is accurate and I authorize Cluso Infolink to verify this employment information with the listed employer.
                   </label>
                 </div>
 
@@ -2046,7 +2046,7 @@ function CandidateDashboardContent() {
                   <span className="font-bold text-xs text-slate-800 uppercase tracking-wider">Step 3</span>
                 </div>
                 <p className="text-xs text-slate-600 font-semibold leading-relaxed">
-                  <strong className="text-slate-900">Select &amp; import:</strong> Choose your identity documents you need for Ozclu Verifications and click &quot;Access from DigiLocker&quot;.
+                  <strong className="text-slate-900">Select &amp; import:</strong> Choose your identity documents you need for Cluso Infolink Verifications and click &quot;Access from DigiLocker&quot;.
                 </p>
               </div>
             </div>
@@ -2061,7 +2061,7 @@ function CandidateDashboardContent() {
                 className="w-5 h-5 mt-0.5 border border-[#C6982E] rounded bg-white text-primary focus:ring-[#016e1c] cursor-pointer shrink-0"
               />
               <label htmlFor="consent-checkbox" className="font-body-sm text-slate-700 cursor-pointer select-none leading-relaxed font-semibold">
-                I agree to share the necessary verification details and authorize Ozclu to securely retrieve my identity records via DigiLocker for the purpose of completing my background check.
+                I agree to share the necessary verification details and authorize Cluso Infolink to securely retrieve my identity records via DigiLocker for the purpose of completing my background check.
               </label>
             </div>
 
